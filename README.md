@@ -19,10 +19,10 @@ Anderson-Moore algorithm for solving a forward-looking macro model.
 Simulates the effects of a one percentage point shock to the long-term interest rate, setting it above its steady state level in period $t-1$. The nonlinear model is based on a simple, four-equation New Keynesian model, drawn in part from Fuhrer-Madigan (1997). The model includes a nonlinear equation for the term structure of interest rates. The term structure equation is the equation for the real long-term interest rate, the real rate on a consol. Linearization is required for this nonlinearity.
 
 ### Variables: 
-i, the short-term (one-period) nominal interest rate
-pi, the one-period inflation rate
-rho, the long-term real interest rate (the real rate on a consol)
-y, the GDP gap (zero in the steady state)
+$$i$$ the short-term (one-period) nominal interest rate
+$$\pi$$ the one-period inflation rate
+$$\rho$$ the long-term real interest rate (the real rate on a consol)
+$$y$$ the GDP gap (zero in the steady state)
 
 ### Model Equations
 
